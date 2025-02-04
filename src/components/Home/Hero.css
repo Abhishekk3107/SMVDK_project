@@ -1,0 +1,123 @@
+/* Hero Section Styles */
+.hero-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* Background Image */
+.hero-background {
+  position: absolute;
+  inset: 0;
+  background: url("https://s7ap1.scene7.com/is/image/incredibleindia/1-vaishno-devi-jammu-jk-attr-hero?qlt=82&ts=1726729280423") no-repeat center center/cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Content */
+.hero-content {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-right: 10px;
+  
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+/* Search Box */
+.search-box {
+  
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+}
+
+
+/* Hero Button */
+.hero-button-container {
+  margin-top: 30px;
+}
+
+.hero-button {
+  background: #d32f2f;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-button:hover {
+  background: #b71c1c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .search-input {
+    font-size: 0.9rem;
+  }
+
+  .hero-button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .search-input {
+    padding: 10px 12px;
+  }
+
+  .hero-button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}

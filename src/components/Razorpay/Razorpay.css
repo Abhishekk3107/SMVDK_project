@@ -1,0 +1,73 @@
+/* Donate Page Styling */
+.donate-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1642480278726-7c519e9ff932?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
+    backdrop-filter: blur(5px);
+    
+  }
+  
+  .donate-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .donate-box h1 {
+    font-size: 24px;
+    color: #D32F2F;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donate-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .donate-input {
+  width: 300px;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #D32F2F;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .donate-input:focus {
+    border-color: #C62828;
+    background: #fffaf0;
+  }
+  
+  .donate-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #D32F2F;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .donate-button:hover {
+    background-color: #B71C1C;
+    transform: scale(1.05);
+  }
+  
+  .donate-button:active {
+    transform: scale(0.98);
+  }
+  
