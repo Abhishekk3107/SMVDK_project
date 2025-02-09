@@ -19,6 +19,7 @@ const Navbar = () => {
           <li><Link to="/darshan" onClick={() => setMenuOpen(false)}>Darshan</Link></li>
           <li><Link to="/donate" onClick={() => setMenuOpen(false)}>Donate</Link></li>
           <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+  
         </ul>
         {/* Helpline (Visible on larger screens) */}
         <div className="helpline">

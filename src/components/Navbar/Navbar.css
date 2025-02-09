@@ -54,7 +54,8 @@
 .helpline {
   display: flex;
   align-items: center;
-  gap: 8px;
+  list-style: none;
+  gap: 20px;
   font-size: 0.9rem;
   color: #c0392b;
 }

@@ -44,7 +44,7 @@ const Razorpay = () => {
   return (
     <div className="donate-containers">
       <div className="donate-box">
-        <h1>🙏 Donate for Mata Vaishno Devi 🙏</h1>
+        <h1> Donate for Mata Vaishno Devi </h1>
         <p>Your contribution helps in maintaining the shrine and providing facilities to pilgrims.</p>
 
         <input
@@ -56,7 +56,7 @@ const Razorpay = () => {
         />
 
         <button onClick={handlePayment} className="donate-button">
-          Donate Now 💖
+          Donate Now 
         </button>
       </div>
     </div>

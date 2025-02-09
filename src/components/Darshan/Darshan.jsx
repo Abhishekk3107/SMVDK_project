@@ -1,7 +1,10 @@
 import React from "react";
 import "./Darshan.css";
+import { useNavigate } from "react-router-dom";
 
 const Darshan = () => {
+
+  const navigate = useNavigate();
   return (
     <div className="darshan-container">
       {/* Hero Section */}
@@ -41,7 +44,7 @@ const Darshan = () => {
       <section className="darshan-booking">
         <h2>Online Darshan Booking</h2>
         <p>Book your darshan slot online for a hassle-free experience.</p>
-        <button className="booking-button">Book Now</button>
+        <button className="booking-button" onClick={()=>navigate("/travelplan")}>Book Now</button>
       </section>
 
       {/* Darshan Process */}

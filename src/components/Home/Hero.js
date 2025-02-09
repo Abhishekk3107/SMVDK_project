@@ -1,7 +1,11 @@
 import React from 'react';
 import './Hero.css'; // Importing the separate CSS file
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+
+const navigate = useNavigate();
+
   return (
     <div className="hero-container">
       <div className="hero-background">
@@ -23,7 +27,7 @@ const Hero = () => {
         </div>
 
         <div className="hero-button-container">
-          <button className="hero-button">Plan Your Visit Now</button>
+          <button className="hero-button" onClick={()=>navigate("/travelplan2")}>Plan Your Visit Now</button>
         </div>
       </div>
     </div>

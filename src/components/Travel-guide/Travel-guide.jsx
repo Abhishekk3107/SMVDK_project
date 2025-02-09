@@ -1,8 +1,12 @@
 import React from "react";
 import "./Travel-guide.css";
+import { useNavigate } from "react-router-dom";
 import { FaMapMarkerAlt, FaTrain, FaHotel, FaCalendarAlt } from "react-icons/fa";
 
+
 const TravelGuide = () => {
+
+  const navigate = useNavigate();
   return (
     <div className="travel-guide">
       {/* Header Section */}
@@ -76,7 +80,7 @@ const TravelGuide = () => {
       <section className="cta-section">
         <h2>Plan Your Journey Today!</h2>
         <p>Get ready for a divine experience at Vaishno Devi.</p>
-        <button className="cta-button">Start Planning</button>
+        <button className="cta-button" onClick={()=>navigate("/travelplan")}>Start Planning</button>
       </section>
     </div>
   );
